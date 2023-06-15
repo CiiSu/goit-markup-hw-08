@@ -1,0 +1,47 @@
+.our-team-background {
+    background: #F5F4FA;
+}
+
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+.team__frame {
+    width: 270px;
+    height: 428px;
+    left: 215px;
+    top: 1635px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    text-align: center;
+    padding-block: 30px 10px;
+}
+
+.team__job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+
+

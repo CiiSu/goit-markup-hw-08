@@ -1,0 +1,20 @@
+.social-icon {
+    display: flex;
+    align-items: space-evenly;
+    justify-content: center;
+}
+
+.social-icon__team {
+    fill: var(--main-grey);
+
+    &:hover {
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--main-blue);
+    fill: var(--main-white);
+    }
+}
+
+
+
+

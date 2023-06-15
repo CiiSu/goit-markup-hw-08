@@ -1,0 +1,18 @@
+.icon__footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon__list {
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+}
+
+.icon__hover:hover {
+    background: var(--main-blue);
+    border-radius: 50%;
+    cursor: pointer;
+}
