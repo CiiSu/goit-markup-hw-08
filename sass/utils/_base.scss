@@ -1,29 +1,25 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    width: 100%;
     padding: 0;
-}
-
-a:hover,
-a:focus {
-    color: var(--main-blue);
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
+    margin: 0 auto;
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.reset-margin {
     margin: 0 auto;
 }
 
-.container__slot {
-    width: 1200px;
+ul {
+    list-style: none;
     margin: 0 auto;
-    padding-top: 94px;
 }
