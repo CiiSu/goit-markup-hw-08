@@ -1,75 +1,47 @@
+.our-team-background {
+    background: #F5F4FA;
+}
+
+
 .team {
-    background-color: var( --background-color-icon);
-
-    &__list {
-        display: flex;
-        justify-content: space-between;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 15px
-    }
-}
-
-.team-frame {
-    background: var(--main-white);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    max-width: 270px;
-    height: 460px;
-
-    &__name {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        letter-spacing: 0.03em;
-        margin: 30px 99px 10px;
-        color: var(--main-black);
-    }
-
-    &__job {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        letter-spacing: 0.03em;
-        margin: 0 auto 16px auto;
-        color: var(--main-grey);
-        text-align: center;
-    }
-}
-
-.social-icon {
     display: flex;
-    gap: 10px;
-
-    &__team {
-        fill: var(--main-grey);
-
-        &:hover {
-            border-radius: 50%;
-            cursor: pointer;
-            background: var(--main-blue);
-            fill: var(--main-white);
-        }
-    }
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
 
-@media (min-width: 768px) {
-    .team {
-       &__list {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-       }
-    }
+.team__frame {
+    width: 270px;
+    height: 428px;
+    left: 215px;
+    top: 1635px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
-@media (min-width: 1200px) {
-    .team {
-        &__list {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            gap: 30px;
-        }
-    }
+.team__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    text-align: center;
+    padding-block: 30px 10px;
 }
+
+.team__job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+
+

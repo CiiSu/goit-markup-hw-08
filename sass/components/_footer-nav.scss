@@ -1,0 +1,36 @@
+.web-logo__blue {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-blue);
+}
+
+.web-logo__white {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-white);
+}
+
+.footer__adress {
+    padding-top: 20px;
+}
+
+.footer__mail {
+    padding-block: 9px;
+
+}
+
+.footer__link--color {
+    color: var(--main-white);
+}
+
+.footer__contact--color {
+    color: var(--footer-link-color);
+}

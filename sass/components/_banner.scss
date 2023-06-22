@@ -1,0 +1,41 @@
+.banner {
+    height: 600px;
+    margin: 0;
+    text-align: center;
+    padding: 200px 0;
+    background-size: cover;
+    background-image: url(/goit-markup-hw-04/zdjęcia/Zajęcia/header.jpg);
+    box-shadow: 200px 200px 400px 200px rgba(47, 48, 58, 0.39) inset;
+}
+
+.banner__solutions {
+    margin: 0 auto;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: var(--main-white);
+}   
+
+.banner__button {
+    background: var(--main-blue);
+    color: var(--main-white);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    margin-top: 30px;
+}
