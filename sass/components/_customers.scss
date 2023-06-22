@@ -1,6 +1,7 @@
 
 
 .customers {
+    
     display: flex;
     list-style: none;
     display: flex;
@@ -9,6 +10,7 @@
 }
 
 .customers__frame {
+    display: none;
     width: 170px;
     height: 92px;
     border: 1px solid currentColor;
@@ -17,7 +19,7 @@
     border-radius: 4px;
     margin-right: 30px;
     margin-block: 50px 90px;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     text-align: center;

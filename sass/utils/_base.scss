@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -18,12 +17,17 @@ ul {
 }
 
 .container {
-    width: 1200px;
+    max-width: 480px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
+
+    @include tablet {
+        max-width: 768px;
+    }
+
+    @include desktop {
+        max-width: 1200px;
+    }
 }
 
-.container__slot {
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 94px;
-}

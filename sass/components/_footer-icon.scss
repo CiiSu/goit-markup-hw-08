@@ -1,15 +1,17 @@
 .icon__footer {
+    display: none;
     margin-top: 20px;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
+
+    &__list {
+        margin-right: 10px;
+        width: 44px;
+        height: 44px;
+    }
 }
 
-.icon__list {
-    margin-right: 10px;
-    width: 44px;
-    height: 44px;
-}
 
 .icon__hover:hover {
     background: var(--main-blue);
