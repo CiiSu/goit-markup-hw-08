@@ -1,22 +1,9 @@
-@import './utils/mixins.scss';
-@import './utils/base';
-@import './utils/vars.scss';
-@import './components/header.scss';
-@import './components/logo.scss';
-@import './components/banner.scss';
-@import './components/modal.scss';
-@import './components/article.scss';
-@import './components/what_we_do.scss';
-@import './components/team.scss';
-@import './components/customers.scss';
-@import './components/footer.scss';
-@import './components/buttons-portfolio.scss';
-@import './components/cards-portfolio.scss';
-@import './components/h-class.scss';
-@import './components/icon-team.scss';
-@import './components/footer-nav.scss';
-@import './components/footer-icon.scss';
-@import './components/newsletter.scss';
+@import './utils/vars';
+@import './utils/mixins';
+@import './utils/globals';
 
-
-    
+@import './components/header';
+@import './components/menuMobile';
+@import './components/hero';
+@import './components/articles';
+@import './components/modal';

@@ -1,16 +1,10 @@
-:root {
-    --main-black: #212121;
-    --main-grey: #757575;
-    --main-blue: #2196F3;
-    --main-white: #FFFFFF;
-    --second-black: #000000;
-    --border-color: #ECECEC;
-    --background-color-icon: #F5F4FA;
-    --icon-fill-color: #afb1b8;
-    --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
-    --box-shadow-what-we-do: rgba(47, 48, 58, 0.8);
-    --footer-link-color: rgba(255, 255, 255, 0.6);
-    --newsleter-background: #2f303a;
-}
-
-$text-color: #212121;
+$logo: #000000;
+$main-text-color: #212121;
+$p-color: #757575;
+$white-color: #ffffff;
+$footer-color-mail: rgba(255, 255, 255, 0.6);
+$background-color1: #ffffff;
+$background-color2: #2f303a;
+$bacground-color3: #e5e5e5;
+$backroung-color4: #f5f4fa;
+$selection: #2196f3;

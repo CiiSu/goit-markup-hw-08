@@ -1,0 +1,64 @@
+.articles {
+    padding-bottom: 0;
+    margin-bottom: 60px;
+
+    @include tablet {
+        margin-bottom: 45px;
+    }
+
+    @include desktop {
+        margin-bottom: 0;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        @include tablet {
+            margin: 15px;
+            flex-basis: calc((100% - 4 * 15px) / 2);
+        }
+
+        @include desktop {
+            margin: 15px;
+            flex-basis: calc((100% - 8 * 15px) / 4);
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-align: center;
+
+        @include tablet {
+            text-align: left;
+        }
+    }
+
+    &__paragraph {
+        font-size: 14px;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+        color: $p-color;
+        margin-bottom: 30px;
+
+        @include tablet {
+            margin-bottom: 0;
+        }
+    }
+
+    &__icon {
+        background-color: $backroung-color4;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        padding: 25px 0;
+        display: flex;
+        justify-content: center;
+    }
+}
