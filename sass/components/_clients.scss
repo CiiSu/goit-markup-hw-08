@@ -1,0 +1,43 @@
+.clients {
+    &__headline {
+        color: $main-text-color;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 0.84px;
+        margin-bottom: 30px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__item {
+        width: 210px;
+        height: 92px;
+        border: 1px solid currentColor;
+        color: #afb1b8;
+        fill: currentColor;
+        border-radius: 4px;
+        padding: 16px 52px;
+        cursor: pointer;
+
+        &:hover {
+            border-color: $selection;
+            fill: $selection;
+        }
+
+        @include tablet {
+            width: 226px;
+            padding: 16px 60px;
+        }
+
+        @include desktop {
+            width: 170px;
+            padding: 17px 32px;
+        }
+    }
+}

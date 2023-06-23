@@ -14,8 +14,9 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
-        url(./../zdjęcia/backgr/backgroundMobile@1x.jpg);
-    background-size: 480px;
+        url(./../images/backgr/backgroundMobile@1x.jpg);
+    background-size: cover;
+
     @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -25,7 +26,7 @@
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)
             ),
-            url(./../zdjęcia/backgr/backgroundMobile@2x.jpg);
+            url(./../images/backgr/backgroundMobile@2x.jpg);
     }
 
     @include tablet {
@@ -34,8 +35,8 @@
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)
             ),
-            url(./../zdjęcia/backgr/backgroundTablet@1x.jpg);
-        background-size: 768px;
+            url(./../images/backgr/backgroundTablet@1x.jpg);
+        background-size: cover;
         @media (min-device-pixel-ratio: 2),
             (-webkit-min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
@@ -45,7 +46,7 @@
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)
                 ),
-                url(./../zdjęcia/backgr/backgroundTablet@2x.jpg);
+                url(./../images/backgr/backgroundTablet@2x.jpg);
         }
     }
 
@@ -57,7 +58,7 @@
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)
             ),
-            url(./../zdjęcia/backgr/backgroundDeskop@1x.jpg);
+            url(./../images/backgr/backgroundDeskop@1x.jpg);
         background-size: 1600px;
         @media (min-device-pixel-ratio: 2),
             (-webkit-min-device-pixel-ratio: 2),
@@ -68,7 +69,7 @@
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)
                 ),
-                url(./../zdjęcia/backgr/backgroundDeskop@2x.jpg);
+                url(./../images/backgr/backgroundDeskop@2x.jpg);
         }
     }
 
