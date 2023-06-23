@@ -1,0 +1,56 @@
+.work {
+    display: none;
+        @include desktop {
+            display: flex;
+
+        &__headline {
+            text-align: center;
+            color: $main-text-color;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 1.08px;
+        }
+
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            padding-top: 50px;
+            padding-bottom: 94px;
+    
+            &--item1 {
+                background-image: url(../zdjęcia/Zajęcia/pisanie_na_klawiaturze.jpg);
+                width: 370px;
+                height: 294px;
+                box-shadow: 0px -70px 0px 0px $item-color inset;
+            }
+    
+            &--item2 {
+                background-image: url(../zdjęcia/Zajęcia/trzymanie_telefonu.jpg);
+                width: 370px;
+                height: 294px;
+                box-shadow: 0px -70px 0px 0px $item-color inset;
+            }
+    
+            &--item3 {
+                background-image: url(../zdjęcia/Zajęcia/trzymanie_tabletu.jpg);
+                width: 370px;
+                height: 294px;
+                box-shadow: 0px -70px 0px 0px $item-color inset;
+            }
+        }
+    
+        &__paragraph {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            padding-block: 251px 27px;
+            color: $white-color;
+        }
+    }
+}
