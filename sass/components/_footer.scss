@@ -1,0 +1,30 @@
+.footer {
+    background-color: $background-color2;
+    padding: 60px auto 0;
+
+    @include desktop {
+        padding-bottom: 0;
+    }
+
+    &__wrapper {
+        @include desktop {
+            display: flex;
+            flex-direction: row;
+            align-items: normal;
+        }
+    }
+
+    &__logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: $selection;
+        text-decoration: none;
+
+        &--white {
+            color: $white-color;
+        }
+    }
+}
