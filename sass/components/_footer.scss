@@ -87,6 +87,10 @@
         font-weight: 700;
         letter-spacing: 0.42px;
         text-transform: uppercase;
+
+        @include desktop {
+            margin-right: 100px;
+        }
     }
 
     &__icon {
@@ -116,8 +120,8 @@
     }
 
     @include desktop {
-        margin-left: 78px;
         margin-top: 0px;
+        margin-left: 74px;
     }
 
     &__headline {
@@ -128,6 +132,10 @@
         font-weight: 700;
         letter-spacing: 0.42px;
         text-transform: uppercase;
+
+        @include desktop {
+            margin-right: 371px;
+        }
     }
 
     &__input {
