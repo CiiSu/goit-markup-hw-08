@@ -1,0 +1,61 @@
+.Btns-portfolio {
+    padding-bottom: 40px;
+
+    @include tablet {
+        padding-bottom: 30px;
+    }
+
+    @include desktop {
+        padding-bottom: 50px;
+    }
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+
+        @include tablet {
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            padding-bottom: 30px;
+        }
+
+        @include desktop {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+        }
+    }
+
+    &__btn {
+        width: 128px;
+        height: 38px;
+        border-radius: 4px;
+        background-color: rgba(245, 244, 250, 1);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+            0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+            0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        border: none;
+
+        &:hover,
+        &:focus {
+            background: $selection;
+        }
+
+        &--item {
+            color: $main-text-color;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0.48px;
+
+            &:hover,
+            &:focus {
+                color: $white-color;
+            }
+        }
+    }
+}
