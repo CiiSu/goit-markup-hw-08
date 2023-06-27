@@ -65,6 +65,7 @@
             color: $selection;
         }
     }
+
     &__navigation-item {
         position: relative;
         &--current::after {
